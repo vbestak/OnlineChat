@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <h2>Dobrodošli na online chat: "<span id="userName"></span>" !</h2>
+    </header>
+
+    <div id="container">
+      <div id="poruke">
+        <p><i>auto message: Dobrodošli!</i></p>
+      </div>
+    </div>
+
+    <div id="input">
+      <label for="msg">
+        Poruka:
+        <input type="text" id="userMessage" name="msg" autofocus autocomplete="off" />
+      </label>
+      <button id="sendButton">Pošalji</button>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
